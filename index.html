@@ -12,10 +12,23 @@
       type="text/css"
     />
     <script src="https://cdn.tailwindcss.com"></script>
+    <!-- google fonts for manrope -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      .font-manrope{
+        font-family: "Manrope", sans-serif;
+      }
+    </style>
   </head>
-  <body>
+  <body class="font-manrope bg-white">
     <head>
-      <!-- <nav></nav> -->
+       <!-- <nav></nav>  -->
+       <!-- slider section starts -->
       <section>
         <div class="container mx-auto lg:px-24 px-8">
           <div class="carousel w-full">
@@ -98,8 +111,91 @@
           </div>
         </div>
       </section>
+      <!-- slider section ends -->
+
     </head>
-    <main></main>
+    <main>
+      <!-- Professional Hockeys section starts  -->
+
+      <section class="container mx-auto lg:px-24 px-8 py-14">
+        <div class="flex flex-col justify-center items-center text-center mb-6">
+          <h2 class="text-[#131318] text-4xl font-extrabold">Professional Hockeys Club</h2>
+          <p class="my-6 font-medium text-[#13131899]">
+            Passionate hockey club dedicated to fostering skill development,
+            teamwork, and a love for the game. Committed to excellence and
+            sportsmanship, creating a thriving community of dedicated players
+            and fans.
+          </p>
+        </div>
+        <div class="flex flex-col lg:flex-row lg:justify-between items-center mx-auto gap-0 lg:gap-2">
+          <div
+            class="flex flex-col items-center text-center gap-2 h-60 max-w-52  lg:justify-evenly"
+          >
+            <div
+              class="radial-progress text-[#FF4240]"
+              style="--value: 87"
+              role="progressbar"
+            >
+              87%
+            </div>
+            <h3 class="text-[#131318] text-xl font-semibold">Prayer Facility</h3>
+            <p class="text-[#13131899] font-normal">
+              Inclusive Professional Hockey Club with on-site prayer facility
+              for all.
+            </p>
+          </div>
+          <div
+            class="flex flex-col items-center text-center gap-2 h-72 max-w-52  lg:justify-evenly"
+          >
+            <div
+              class="radial-progress text-[#49D293]"
+              style="--value: 95"
+              role="progressbar"
+            >
+              95%
+            </div>
+            <h3 class="text-[#131318] text-xl font-semibold">Experienced Coach</h3>
+            <p class="text-[#13131899] font-normal">
+              Professional Hockey Club led by an expert coach for skillful
+              guidance.
+            </p>
+          </div>
+          <div
+            class="flex flex-col  items-center text-center gap-2 h-72 max-w-52 lg:justify-evenly"
+          >
+            <div
+              class="radial-progress text-[#FFB546]"
+              style="--value: 90"
+              role="progressbar"
+            >
+              90%
+            </div>
+            <h3 class="text-[#131318] text-xl font-semibold">Senior Player</h3>
+            <p class="text-[#13131899] font-normal">
+              Seasoned players contribute wisdom and skill to our Professional
+              Hockey Club.
+            </p>
+          </div>
+          <div
+            class="flex flex-col  items-center text-center gap-2 h-72 max-w-52 lg:justify-evenly"
+          >
+            <div
+              class="radial-progress text-[#4C8DF1]"
+              style="--value: 80"
+              role="progressbar"
+            >
+              80%
+            </div>
+            <h3 class="text-[#131318] text-xl font-semibold">Training Ground</h3>
+            <p class="text-[#13131899] font-normal">
+              State-of-the-art training ground elevates our Professional Hockey
+              Club's performance standards.
+            </p>
+          </div>
+        </div>
+      </section>
+      <!-- Professional Hockeys section ends  -->
+    </main>
     <footer></footer>
   </body>
 </html>

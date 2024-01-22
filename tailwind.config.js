@@ -1,8 +1,12 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-    content: [],
+    content: ["*"],
     theme: {
-      extend: {},
+      extend: {
+        fontFamily: {
+          'manrope': ["Manrope"],
+        },
+      },
     },
     plugins: [],
   }
