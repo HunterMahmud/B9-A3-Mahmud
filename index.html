@@ -35,12 +35,12 @@
   </head>
   <body class="font-manrope bg-white">
     <head>
-      <nav class="container mx-auto lg:px-24 px-8 py-5">
-        <div class="navbar bg-white">
+      <nav class="">
+        <div class="navbar bg-white container mx-auto lg:px-24 px-8 py-5">
           <div class="navbar-start">
             <div class="dropdown">
-              <div tabindex="0" role="button" class="btn btn-ghost lg:hidden text-[#131318]">
-                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
+              <div tabindex="0" role="button" class="btn btn-ghost p-0 lg:p-4 lg:hidden text-[#131318]">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 p-0 lg:p-1" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
               </div>
               <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-gray-100 rounded-box w-52">
                 <li><a class="text-[#131318]">Home</a></li>
@@ -50,7 +50,7 @@
                 <li><a class="text-[#131318]">Contact</a></li>
               </ul>
             </div>
-            <a class="btn btn-ghost hover:bg-white text-4xl text-[#131318]">Hockey<span class="text-[#ff4240]">’</span>s</a>
+            <a class="btn btn-ghost hover:bg-white text-xl lg:text-4xl p-1 lg:px-4 text-[#131318]">Hockey<span class="text-[#ff4240]">’</span>s</a>
           </div>
           <div class="navbar-center hidden lg:flex">
             <ul class="menu menu-horizontal px-1">
@@ -62,15 +62,15 @@
                 <li><a class="hover:text-[#FF4240] text-[#131318] hover:bg-white">Contact</a></li>
             </ul>
           </div>
-          <div class="navbar-end flex gap-3">
+          <div class="navbar-end flex lg:gap-3">
             <i class="fa-solid fa-magnifying-glass hidden lg:flex"></i>
-            <a class="btn bg-[#FF4240] border-[#FF4240] text-white hover:bg-[#FF4240] hover:border-[#FF4240] text-xl font-bold">Get Ticket</a>
+            <a class="btn bg-[#FF4240] border-[#FF4240] text-white hover:bg-[#FF4240] hover:border-[#FF4240] text-xl font-bold p-2 lg:px-4">Get Ticket</a>
           </div>
         </div>
       </nav>
 
       <!-- slider section starts -->
-      <section  class="container mx-auto lg:px-24 px-8 pb-10">
+      <section  class="relative container mx-auto lg:px-24 px-8 pb-10">
         
           <div class="carousel w-full">
             <div
@@ -149,8 +149,12 @@
                 >
               </div>
             </div>
+            
           </div>
-        
+          <div class="lg:absolute p-8 bg-[#131318] rounded-2xl lg:w-[35%]  right-[9%] bottom-[12%]">
+            <h2 class="font-extrabold text-2xl text-white">Meet all the heroes from the field</h2>
+            <p class="font-medium">Meet field heroes, discover inspiring stories from our hockey community's remarkable individuals.</p>
+          </div>
       </section>
       <!-- slider section ends -->
     </head>
@@ -701,7 +705,7 @@
       </section>
       <!-- get in touch section ends  -->
     </main>
-    <footer class="grid grid-cols-2 lg:grid-cols-4 bg-gray-800 lg:p-24 p-14">
+    <footer class="grid grid-cols-2 lg:grid-cols-4 bg-gray-800 lg:p-24 p-14 gap-7">
       <div
         class="lg:pl-10 col-span-2 lg:col-span-1 flex flex-col items-center lg:items-start gap-3 mx-auto"
       >
