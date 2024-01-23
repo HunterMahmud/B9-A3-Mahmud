@@ -35,11 +35,43 @@
   </head>
   <body class="font-manrope bg-white">
     <head>
-      <!-- <nav></nav>  -->
+      <nav class="container mx-auto lg:px-24 px-8 py-5">
+        <div class="navbar bg-white">
+          <div class="navbar-start">
+            <div class="dropdown">
+              <div tabindex="0" role="button" class="btn btn-ghost lg:hidden text-[#131318]">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
+              </div>
+              <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-gray-100 rounded-box w-52">
+                <li><a class="text-[#131318]">Home</a></li>
+                <li><a class="text-[#131318]">About</a></li>
+                <li><a class="text-[#131318]">Pages</a></li>
+                <li><a class="text-[#131318]">Blog</a></li>
+                <li><a class="text-[#131318]">Contact</a></li>
+              </ul>
+            </div>
+            <a class="btn btn-ghost hover:bg-white text-4xl text-[#131318]">Hockey<span class="text-[#ff4240]">’</span>s</a>
+          </div>
+          <div class="navbar-center hidden lg:flex">
+            <ul class="menu menu-horizontal px-1">
+              
+                <li><a class="hover:text-[#FF4240] text-[#131318] hover:bg-white">Home</a></li>
+                <li><a class="hover:text-[#FF4240] text-[#131318] hover:bg-white">About</a></li>
+                <li><a class="hover:text-[#FF4240] text-[#131318] hover:bg-white">Pages</a></li>
+                <li><a class="hover:text-[#FF4240] text-[#131318] hover:bg-white">Blog</a></li>
+                <li><a class="hover:text-[#FF4240] text-[#131318] hover:bg-white">Contact</a></li>
+            </ul>
+          </div>
+          <div class="navbar-end flex gap-3">
+            <i class="fa-solid fa-magnifying-glass hidden lg:flex"></i>
+            <a class="btn bg-[#FF4240] border-[#FF4240] text-white hover:bg-[#FF4240] hover:border-[#FF4240] text-xl font-bold">Get Ticket</a>
+          </div>
+        </div>
+      </nav>
 
       <!-- slider section starts -->
-      <section>
-        <div class="container mx-auto lg:px-24 px-8">
+      <section  class="container mx-auto lg:px-24 px-8 pb-10">
+        
           <div class="carousel w-full">
             <div
               id="slide1"
@@ -118,7 +150,7 @@
               </div>
             </div>
           </div>
-        </div>
+        
       </section>
       <!-- slider section ends -->
     </head>
