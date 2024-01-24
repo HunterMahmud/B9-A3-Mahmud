@@ -34,130 +34,180 @@
     </style>
   </head>
   <body class="font-manrope bg-white">
-    <head>
-      <nav class="">
-        <div class="navbar bg-white container mx-auto lg:px-24 px-8 py-5">
-          <div class="navbar-start">
-            <div class="dropdown">
-              <div tabindex="0" role="button" class="btn btn-ghost p-0 lg:p-4 lg:hidden text-[#131318]">
-                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 p-0 lg:p-1" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
-              </div>
-              <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-gray-100 rounded-box w-52">
-                <li><a class="text-[#131318]">Home</a></li>
-                <li><a class="text-[#131318]">About</a></li>
-                <li><a class="text-[#131318]">Pages</a></li>
-                <li><a class="text-[#131318]">Blog</a></li>
-                <li><a class="text-[#131318]">Contact</a></li>
-              </ul>
+    <!-- header section starts  -->
+    <header>
+      <nav class="navbar bg-white container mx-auto lg:px-24 px-8 py-5">
+        <div class="navbar-start">
+          <div class="dropdown">
+            <div
+              tabindex="0"
+              role="button"
+              class="btn btn-ghost p-0 lg:p-4 lg:hidden text-[#131318]"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="h-5 w-5 p-0 lg:p-1"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M4 6h16M4 12h8m-8 6h16"
+                />
+              </svg>
             </div>
-            <a class="btn btn-ghost hover:bg-white text-xl lg:text-4xl p-1 lg:px-4 text-[#131318]">Hockey<span class="text-[#ff4240]">’</span>s</a>
-          </div>
-          <div class="navbar-center hidden lg:flex">
-            <ul class="menu menu-horizontal px-1">
-              
-                <li><a class="hover:text-[#FF4240] text-[#131318] hover:bg-white">Home</a></li>
-                <li><a class="hover:text-[#FF4240] text-[#131318] hover:bg-white">About</a></li>
-                <li><a class="hover:text-[#FF4240] text-[#131318] hover:bg-white">Pages</a></li>
-                <li><a class="hover:text-[#FF4240] text-[#131318] hover:bg-white">Blog</a></li>
-                <li><a class="hover:text-[#FF4240] text-[#131318] hover:bg-white">Contact</a></li>
+            <ul
+              tabindex="0"
+              class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-gray-100 rounded-box w-52"
+            >
+              <li><a class="text-[#131318]">Home</a></li>
+              <li><a class="text-[#131318]">About</a></li>
+              <li><a class="text-[#131318]">Pages</a></li>
+              <li><a class="text-[#131318]">Blog</a></li>
+              <li><a class="text-[#131318]">Contact</a></li>
             </ul>
           </div>
-          <div class="navbar-end flex lg:gap-3">
-            <i class="fa-solid fa-magnifying-glass hidden lg:flex"></i>
-            <a class="btn bg-[#FF4240] border-[#FF4240] text-white hover:bg-[#FF4240] hover:border-[#FF4240] text-xl font-bold p-2 lg:px-4">Get Ticket</a>
-          </div>
+          <a
+            class="btn btn-ghost hover:bg-white text-xl lg:text-4xl p-1 lg:px-4 text-[#131318]"
+            >Hockey<span class="text-[#ff4240]">’</span>s</a
+          >
+        </div>
+        <div class="navbar-center hidden lg:flex">
+          <ul class="menu menu-horizontal px-1">
+            <li>
+              <a class="hover:text-[#FF4240] text-[#131318] hover:bg-white"
+                >Home</a
+              >
+            </li>
+            <li>
+              <a class="hover:text-[#FF4240] text-[#131318] hover:bg-white"
+                >About</a
+              >
+            </li>
+            <li>
+              <a class="hover:text-[#FF4240] text-[#131318] hover:bg-white"
+                >Pages</a
+              >
+            </li>
+            <li>
+              <a class="hover:text-[#FF4240] text-[#131318] hover:bg-white"
+                >Blog</a
+              >
+            </li>
+            <li>
+              <a class="hover:text-[#FF4240] text-[#131318] hover:bg-white"
+                >Contact</a
+              >
+            </li>
+          </ul>
+        </div>
+        <div class="navbar-end flex lg:gap-3">
+          <i class="fa-solid fa-magnifying-glass hidden lg:flex"></i>
+          <a
+            class="btn bg-[#FF4240] border-[#FF4240] text-white hover:bg-[#FF4240] hover:border-[#FF4240] text-xl font-bold p-2 lg:px-4"
+            >Get Ticket</a
+          >
         </div>
       </nav>
 
       <!-- slider section starts -->
-      <section  class="relative container mx-auto lg:px-24 px-8 pb-10">
-        
-          <div class="carousel w-full">
+      <section class="relative container mx-auto lg:px-24 px-8 pb-10">
+        <div class="carousel w-full">
+          <div
+            id="slide1"
+            class="carousel-item relative w-full bg-[linear-gradient(45deg,rgba(0,0,0,0.4),rgba(0,0,0,0.1)),url('./images/1.png')] h-[35vh] lg:h-[70vh] bg-cover bg-center bg-no-repeat rounded-2xl"
+          >
             <div
-              id="slide1"
-              class="carousel-item relative w-full bg-[linear-gradient(45deg,rgba(0,0,0,0.4),rgba(0,0,0,0.1)),url('./images/1.png')] h-[35vh] lg:h-[70vh] bg-cover bg-no-repeat rounded-2xl"
+              class="absolute flex justify-start gap-2 transform -translate-y-1/2 left-5 bottom-0"
             >
-              <div
-                class="absolute flex justify-start gap-2 transform -translate-y-1/2 left-5 bottom-0"
+              <a
+                href="#slide4"
+                class="flex bg-gray-900 rounded-full h-10 w-10 text-center items-center justify-center"
+                >❮</a
               >
-                <a
-                  href="#slide4"
-                  class="flex bg-gray-900 rounded-full h-10 w-10 text-center items-center justify-center"
-                  >❮</a
-                >
-                <a
-                  href="#slide2"
-                  class="flex bg-gray-900 rounded-full h-10 w-10 text-center items-center justify-center"
-                  >❯</a
-                >
-              </div>
-            </div>
-            <div
-              id="slide2"
-              class="carousel-item relative w-full bg-[linear-gradient(45deg,rgba(0,0,0,0.4),rgba(0,0,0,0.1)),url('./images/2.png')] h-[35vh] lg:h-[70vh] bg-cover bg-no-repeat rounded-2xl"
-            >
-              <div
-                class="absolute flex justify-start gap-2 transform -translate-y-1/2 left-5 bottom-0"
+              <a
+                href="#slide2"
+                class="flex bg-gray-900 rounded-full h-10 w-10 text-center items-center justify-center"
+                >❯</a
               >
-                <a
-                  href="#slide1"
-                  class="flex bg-gray-900 rounded-full h-10 w-10 text-center items-center justify-center"
-                  >❮</a
-                >
-                <a
-                  href="#slide3"
-                  class="flex bg-gray-900 rounded-full h-10 w-10 text-center items-center justify-center"
-                  >❯</a
-                >
-              </div>
             </div>
-            <div
-              id="slide3"
-              class="carousel-item relative w-full bg-[linear-gradient(45deg,rgba(0,0,0,0.4),rgba(0,0,0,0.1)),url('./images/3.png')] h-[35vh] lg:h-[70vh] bg-cover bg-no-repeat rounded-2xl"
-            >
-              <div
-                class="absolute flex justify-start gap-2 transform -translate-y-1/2 left-5 bottom-0"
-              >
-                <a
-                  href="#slide2"
-                  class="flex bg-gray-900 rounded-full h-10 w-10 text-center items-center justify-center"
-                  >❮</a
-                >
-                <a
-                  href="#slide4"
-                  class="flex bg-gray-900 rounded-full h-10 w-10 text-center items-center justify-center"
-                  >❯</a
-                >
-              </div>
-            </div>
-            <div
-              id="slide4"
-              class="carousel-item relative w-full bg-[linear-gradient(45deg,rgba(0,0,0,0.4),rgba(0,0,0,0.1)),url('./images/4.png')] h-[35vh] lg:h-[70vh] bg-cover bg-no-repeat rounded-2xl"
-            >
-              <div
-                class="absolute flex justify-start gap-2 transform -translate-y-1/2 left-5 bottom-0"
-              >
-                <a
-                  href="#slide3"
-                  class="flex bg-gray-900 rounded-full h-10 w-10 text-center items-center justify-center"
-                  >❮</a
-                >
-                <a
-                  href="#slide1"
-                  class="flex bg-gray-900 rounded-full h-10 w-10 text-center items-center justify-center"
-                  >❯</a
-                >
-              </div>
-            </div>
-            
           </div>
-          <div class="lg:absolute p-8 bg-[#131318] rounded-2xl lg:w-[35%]  right-[9%] bottom-[12%]">
-            <h2 class="font-extrabold text-2xl text-white">Meet all the heroes from the field</h2>
-            <p class="font-medium">Meet field heroes, discover inspiring stories from our hockey community's remarkable individuals.</p>
+          <div
+            id="slide2"
+            class="carousel-item relative w-full bg-[linear-gradient(45deg,rgba(0,0,0,0.4),rgba(0,0,0,0.1)),url('./images/2.png')] h-[35vh] lg:h-[70vh] bg-cover bg-center bg-no-repeat rounded-2xl"
+          >
+            <div
+              class="absolute flex justify-start gap-2 transform -translate-y-1/2 left-5 bottom-0"
+            >
+              <a
+                href="#slide1"
+                class="flex bg-gray-900 rounded-full h-10 w-10 text-center items-center justify-center"
+                >❮</a
+              >
+              <a
+                href="#slide3"
+                class="flex bg-gray-900 rounded-full h-10 w-10 text-center items-center justify-center"
+                >❯</a
+              >
+            </div>
           </div>
+          <div
+            id="slide3"
+            class="carousel-item relative w-full bg-[linear-gradient(45deg,rgba(0,0,0,0.4),rgba(0,0,0,0.1)),url('./images/3.png')] h-[35vh] lg:h-[70vh] bg-cover bg-center bg-no-repeat rounded-2xl"
+          >
+            <div
+              class="absolute flex justify-start gap-2 transform -translate-y-1/2 left-5 bottom-0"
+            >
+              <a
+                href="#slide2"
+                class="flex bg-gray-900 rounded-full h-10 w-10 text-center items-center justify-center"
+                >❮</a
+              >
+              <a
+                href="#slide4"
+                class="flex bg-gray-900 rounded-full h-10 w-10 text-center items-center justify-center"
+                >❯</a
+              >
+            </div>
+          </div>
+          <div
+            id="slide4"
+            class="carousel-item relative w-full bg-[linear-gradient(45deg,rgba(0,0,0,0.4),rgba(0,0,0,0.1)),url('./images/4.png')] h-[35vh] lg:h-[70vh] bg-cover bg-center bg-no-repeat rounded-2xl"
+          >
+            <div
+              class="absolute flex justify-start gap-2 transform -translate-y-1/2 left-5 bottom-0"
+            >
+              <a
+                href="#slide3"
+                class="flex bg-gray-900 rounded-full h-10 w-10 text-center items-center justify-center"
+                >❮</a
+              >
+              <a
+                href="#slide1"
+                class="flex bg-gray-900 rounded-full h-10 w-10 text-center items-center justify-center"
+                >❯</a
+              >
+            </div>
+          </div>
+        </div>
+        <div
+          class="lg:absolute p-8 bg-[#131318] rounded-2xl lg:w-[35%] right-[9%] bottom-[12%]"
+        >
+          <h2 class="font-extrabold text-2xl text-white">
+            Meet all the heroes from the field
+          </h2>
+          <p class="font-medium">
+            Meet field heroes, discover inspiring stories from our hockey
+            community's remarkable individuals.
+          </p>
+        </div>
       </section>
       <!-- slider section ends -->
-    </head>
+    </header>
+    <!-- header section ends  -->
     <main>
       <!-- Professional Hockeys section starts  -->
       <section class="container mx-auto lg:px-24 px-8 py-10">
@@ -266,7 +316,7 @@
         <hr class="border-dashed" />
         <div class="grid grid-cols-1 lg:grid-cols-2 gap-4 py-10">
           <div
-            class="relative bg-[linear-gradient(45deg,rgba(0,0,0,0.5),rgba(0,0,0,0.2)),url('./images/2.png')] bg-no-repeat bg-cover h-[55vh] lg:h-[40vh] rounded-2xl lg:rounded-[30px]"
+            class="relative bg-[linear-gradient(45deg,rgba(0,0,0,0.5),rgba(0,0,0,0.2)),url('./images/2.png')] bg-no-repeat bg-cover bg-center h-[400px] lg:h-[350px] rounded-2xl lg:rounded-[30px]"
           >
             <div
               class="absolute flex flex-col gap-2 left-5 bottom-5 lg:bottom-10 lg:left-10 rounded-2xl lg:rounded-[30px] text-white"
@@ -288,7 +338,7 @@
             </div>
           </div>
           <div
-            class="relative bg-[linear-gradient(45deg,rgba(0,0,0,0.5),rgba(0,0,0,0.2)),url('./images/3.png')] bg-no-repeat bg-cover h-[55vh] lg:h-[40vh] rounded-2xl lg:rounded-[30px]"
+            class="relative bg-[linear-gradient(45deg,rgba(0,0,0,0.5),rgba(0,0,0,0.2)),url('./images/3.png')] bg-no-repeat bg-cover bg-center h-[400px] lg:h-[350px] rounded-2xl lg:rounded-[30px]"
           >
             <div
               class="absolute flex flex-col gap-2 left-5 bottom-5 lg:bottom-10 lg:left-10 rounded-2xl lg:rounded-[30px] text-white"
@@ -312,7 +362,7 @@
             </div>
           </div>
           <div
-            class="lg:col-span-2 relative bg-[linear-gradient(45deg,rgba(0,0,0,0.5),rgba(0,0,0,0.2)),url('./images/4.png')] bg-no-repeat bg-cover h-[55vh] lg:h-[65vh] rounded-2xl lg:rounded-[30px]"
+            class="lg:col-span-2 relative bg-[linear-gradient(45deg,rgba(0,0,0,0.5),rgba(0,0,0,0.2)),url('./images/4.png')] bg-no-repeat bg-cover bg-center h-[400px] lg:h-[500px] rounded-2xl lg:rounded-[30px]"
           >
             <div
               class="absolute flex flex-col gap-2 left-5 bottom-5 lg:bottom-10 lg:left-10 rounded-2xl lg:rounded-[30px] text-white"
@@ -513,67 +563,82 @@
             Clients Question
           </h2>
           <p class="my-6 max-w-[800px] font-medium text-[#13131899]">
-            Explore our hockey club's dynamic website for a comprehensive experience. Discover programs, events, and top-quality gear. Engage with our passionate community, fostering a love for hockey excellence.
+            Explore our hockey club's dynamic website for a comprehensive
+            experience. Discover programs, events, and top-quality gear. Engage
+            with our passionate community, fostering a love for hockey
+            excellence.
           </p>
         </div>
         <hr class="border-dashed" />
         <div class="grid grid-cols-1 gap-6 lg:grid-cols-5 py-10">
           <div class="flex lg:col-span-2 justify-center">
-            <img class="w-[93%]" src="./images/11.png" alt="">
+            <img class="w-[93%]" src="./images/11.png" alt="" />
           </div>
           <div class="flex flex-col justify-between lg:col-span-3">
             <div class="collapse collapse-plus text-[#131318] bg-white">
-              <input type="radio" name="my-accordion-3" checked="checked" /> 
-              <div class="collapse-title text-xl font-bold">
-                Our Equipment
-              </div>
-              <div class="collapse-content"> 
-                <p>Explore top-notch hockey equipment at our club, ensuring peak performance and comfort for players at every level of expertise.</p>
-              </div>
-            </div>
-            <div class="collapse collapse-plus text-[#131318] bg-white">
-              <input type="radio" name="my-accordion-3" /> 
-              <div class="collapse-title text-xl font-bold">
-                Hockey
-              </div>
-              <div class="collapse-content"> 
-                <p>Discover quality hockey gear at our club, enhancing the game for players of all levels with top-tier equipment and accessories.</p>
+              <input type="radio" name="my-accordion-3" checked="checked" />
+              <div class="collapse-title text-xl font-bold">Our Equipment</div>
+              <div class="collapse-content">
+                <p>
+                  Explore top-notch hockey equipment at our club, ensuring peak
+                  performance and comfort for players at every level of
+                  expertise.
+                </p>
               </div>
             </div>
             <div class="collapse collapse-plus text-[#131318] bg-white">
-              <input type="radio" name="my-accordion-3" /> 
-              <div class="collapse-title text-xl font-bold">
-                Private
-              </div>
-              <div class="collapse-content"> 
-                <p>Explore exclusive private offerings, tailored to meet individual needs and preferences, ensuring a personalized and exceptional experience with us.</p>
-              </div>
-            </div>
-            <div class="collapse collapse-plus text-[#131318] bg-white">
-              <input type="radio" name="my-accordion-3" /> 
-              <div class="collapse-title text-xl font-bold">
-                Ski Touring
-              </div>
-              <div class="collapse-content"> 
-                <p>Embark on thrilling ski touring adventures with our premier equipment. Elevate your experience with top-notch gear tailored for ultimate performance and enjoyment.</p>
+              <input type="radio" name="my-accordion-3" />
+              <div class="collapse-title text-xl font-bold">Hockey</div>
+              <div class="collapse-content">
+                <p>
+                  Discover quality hockey gear at our club, enhancing the game
+                  for players of all levels with top-tier equipment and
+                  accessories.
+                </p>
               </div>
             </div>
             <div class="collapse collapse-plus text-[#131318] bg-white">
-              <input type="radio" name="my-accordion-3" /> 
-              <div class="collapse-title text-xl font-bold">
-                Booking
-              </div>
-              <div class="collapse-content"> 
-                <p>Effortlessly book your experience with us. Streamlined and convenient, our booking system ensures a seamless process for securing your reservation.</p>
+              <input type="radio" name="my-accordion-3" />
+              <div class="collapse-title text-xl font-bold">Private</div>
+              <div class="collapse-content">
+                <p>
+                  Explore exclusive private offerings, tailored to meet
+                  individual needs and preferences, ensuring a personalized and
+                  exceptional experience with us.
+                </p>
               </div>
             </div>
             <div class="collapse collapse-plus text-[#131318] bg-white">
-              <input type="radio" name="my-accordion-3" /> 
-              <div class="collapse-title text-xl font-bold">
-                Pricings
+              <input type="radio" name="my-accordion-3" />
+              <div class="collapse-title text-xl font-bold">Ski Touring</div>
+              <div class="collapse-content">
+                <p>
+                  Embark on thrilling ski touring adventures with our premier
+                  equipment. Elevate your experience with top-notch gear
+                  tailored for ultimate performance and enjoyment.
+                </p>
               </div>
-              <div class="collapse-content"> 
-                <p>Transparent pricings tailored to your needs. Explore our flexible options, ensuring fair and clear choices for an exceptional experience with us.</p>
+            </div>
+            <div class="collapse collapse-plus text-[#131318] bg-white">
+              <input type="radio" name="my-accordion-3" />
+              <div class="collapse-title text-xl font-bold">Booking</div>
+              <div class="collapse-content">
+                <p>
+                  Effortlessly book your experience with us. Streamlined and
+                  convenient, our booking system ensures a seamless process for
+                  securing your reservation.
+                </p>
+              </div>
+            </div>
+            <div class="collapse collapse-plus text-[#131318] bg-white">
+              <input type="radio" name="my-accordion-3" />
+              <div class="collapse-title text-xl font-bold">Pricings</div>
+              <div class="collapse-content">
+                <p>
+                  Transparent pricings tailored to your needs. Explore our
+                  flexible options, ensuring fair and clear choices for an
+                  exceptional experience with us.
+                </p>
               </div>
             </div>
           </div>
@@ -613,7 +678,7 @@
               </h4>
             </div>
             <div
-              class="flex flex-col justify-evenly pl-5 lg:pl-7 w-[75%] h-52 rounded-2xl bg-[#BCED6D1A]"
+              class="flex flex-col justify-evenly pl-5 lg:pl-7 w-[75%] h-52 rounded-2xl bg-[#FDDD5F1A]"
             >
               <img
                 class="h-12 w-12"
@@ -705,7 +770,9 @@
       </section>
       <!-- get in touch section ends  -->
     </main>
-    <footer class="grid grid-cols-2 lg:grid-cols-4 bg-gray-800 lg:p-24 p-14 gap-7">
+    <footer
+      class="grid grid-cols-2 lg:grid-cols-4 bg-gray-800 lg:p-24 p-14 gap-7"
+    >
       <div
         class="lg:pl-10 col-span-2 lg:col-span-1 flex flex-col items-center lg:items-start gap-3 mx-auto"
       >
